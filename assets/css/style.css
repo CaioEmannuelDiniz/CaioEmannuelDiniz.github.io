@@ -933,7 +933,7 @@ footer {
     }
 }
 
-@media (min-width: 320px) and (max-width:1023px) {
+@media(max-width:1023px) {
 
     .container_nav{
         margin: 0;
