@@ -941,13 +941,16 @@ footer {
     .nav_right{
         margin: 0;
     }
-    .container_about{
+    
+    .container_about,.container_about.two{
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 350px;
         align-items: center;
     }
+
+
     .container_about h2{
         width: calc(100% - 20px);
     }
