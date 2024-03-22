@@ -282,6 +282,10 @@ h2 {
     height: 40px;
 }
 
+.card_skill span img{
+    height: 40px;
+}
+
 .card_skill .card_title {
     font-family: "eurostile", sans-serif;
     font-size: 24px;
@@ -301,6 +305,7 @@ h2 {
     line-height: 27px;
     color: #141c3a;
     margin-bottom: 15px;
+    width: 300px;
 }
 
 .card_info {
@@ -309,6 +314,20 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
+}
+
+.card_info a{
+    text-decoration: none;
+    color: #141c3a;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 2px solid #5BE9B9;
+}
+
+.card_info a:hover{
+    background-color: #5BE9B9;
+    transition: all 0.4s ease-in;
+    color: #fff;
 }
 
 .card_info .card_info_title {
@@ -579,8 +598,9 @@ h2 {
 }
 
 .card_skill.two {
+    gap: 5px;
+    min-height: 300px;
     max-width: 352px;
-    height: 278px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 30px 12px;
